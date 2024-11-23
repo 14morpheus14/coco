@@ -26,13 +26,18 @@ The design of COCO embodies the belief that an authenticator does **not need to 
 
 COCO’s separation of roles and its reliance on cryptographic principles ensure that the system operates with maximum privacy and minimal attack surfaces. It empowers users with control over their data, establishes trust through transparency, and redefines authentication as a tool for validation rather than identification.
 
----
-
-## Dedication
-
-This work is lovingly dedicated to **Divya Jyoti Das** (*alias: Coco*), *Forensic Scientist*, whose constant support and encouragement were instrumental in its creation. The name **COCO** not only represents *Collaborative Oblivious Computation for Orthogonal Authentication* but also serves as a heartfelt tribute to her. This collection of circuits is part of an ongoing authentication library named **COCO**, a personal and professional dedication.
 
 ---
+
+## Dedication  
+
+This work is lovingly dedicated to **Divya Jyoti Das** (*alias: Coco*), a *Forensic Scientist*, whose unwavering support, and encouragement have been instrumental in the creation of this project. 
+
+The name **COCO** is not merely an acronym for *Collaborative Oblivious Computation for Orthogonal Authentication*; it is a heartfelt tribute to her—a reflection of her spirit, brilliance, and the immense motivation she has provided.  
+
+Through this authentication library, named **COCO**, I aim to celebrate her influence both personally and professionally. This work stands as a testament to the profound impact she has had on my life and endeavors, making this library a symbol of gratitude, admiration, and dedication to her enduring legacy.
+
+--- 
 
 ## Installation
 
