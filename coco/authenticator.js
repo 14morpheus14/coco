@@ -122,7 +122,7 @@ function authenticator(localDB, globalDB, OPRFPrivateKey = null) {
             return result;
         },
         
-        handleBlindSignatureRequest: (blindSignRequest, publicKey, publicAttributes) => {
+        handleBlindSignatureRequest: async (blindSignRequest, publicKey, publicAttributes) => {
             const result = authenticatorInstance.coco_authenticator_step_2(
                 blindSignRequest,
                 publicKey,
@@ -134,6 +134,11 @@ function authenticator(localDB, globalDB, OPRFPrivateKey = null) {
                 return { error: result.error };
             }
 
+            const setGlobalStatus = await setInGlobalStorage(result.verificationKey, result.verificationKey);
+            if (setGlobalStatus.error) {
+                return { error: setGlobalStatus.error };
+            }
+
             return {
                 Signature: result.blindSignature,
                 VK: result.verificationKey,
@@ -141,6 +146,12 @@ function authenticator(localDB, globalDB, OPRFPrivateKey = null) {
         },
 
         handleOPRFEvaluation: async (verificationKeys, proof, publicAttributes, evalRequest) => {
+           
+            const value = await getFromGlobalStorage(verificationKeys);
+            if (value === undefined) {
+                return { error: "Undefined verification key" };
+            }
+
             const result = await authenticatorInstance.coco_authenticator_step_3(
                 verificationKeys,
                 proof,
