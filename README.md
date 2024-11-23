@@ -58,9 +58,9 @@ To get started with COCO:
 
 ## Usage
 
-### Run the Developer Manual and Test
+### Run the User Manual and Test
 
-COCO comes with a developer manual and runtime test script to help you understand and validate its functionality. To execute:
+COCO comes with a user manual and runtime test script to help you understand and validate its functionality. To execute:
 
 1. Run the following command:
    ```bash
