@@ -2,6 +2,12 @@
 
 **COCO is more than an authentication system — it’s my manifesto for radical privacy!**  
 
+### Author  
+- **Yamya Reiki**  
+
+### Contributors  
+- **Yamya Reiki** *(under the aliases: 14morpheus14 and statecraftlabs)*  
+
 COCO is a system reimagining authentication with a steadfast commitment to Unconditional Privacy. At its core, COCO comprises three primary roles: the **Authenticatee**, the **Authenticator**, and the **Verifier**. What COCO deliberately avoids being are an **Authorizer** (Access Controller) or a **Resource Server**. This separation is intentional—COCO's mission is solely to authenticate users, generate access tokens, and verify those tokens, leaving the management of resource access rights entirely out of its purview. This design achieves a crucial goal: preserving user privacy by decoupling the Authentication System from the Resourcing System.
 
 An **Authentication Server** serves as an inherent link between the real and virtual worlds. COCO redefines this bridge, making it **one-way and irreversible**, ensuring user identity flows securely into the digital realm without leaving exploitable trails behind.
