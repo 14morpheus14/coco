@@ -81,4 +81,5 @@ COCO is licensed under the **GPL v3**. See [LICENSE](LICENSE) for details.
 - **[@wasm-tool/wasm-pack-plugin](https://github.com/wasm-tool/wasm-pack-plugin)**: Licensed under the **MIT License**. See [MIT License](https://opensource.org/licenses/MIT) for details.
 
 Please refer to the [NOTICE](NOTICE) file for full attribution and license details.
-```
+
+---
