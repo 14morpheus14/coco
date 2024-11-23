@@ -1,0 +1,28 @@
+{
+  "name": "coco",
+  "version": "0.1.0-alpha",
+  "description": "COCO (Collaborative Oblivious Computation for Orthogonal Authentication) - A privacy-preserving authentication library.",
+  "main": "index.js",
+  "bin": {
+    "yap": "./yaps.js"
+  },
+  "scripts": {
+    "yap": "node yaps.js"
+  },
+  "keywords": [
+    "privacy",
+    "authentication",
+    "cryptography",
+    "oblivious-computation",
+    "privacy-preserving"
+  ],
+  "author": "Yamya Reiki",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@cloudflare/voprf-ts": "^1.0.0",
+    "@nymproject/coconut-wasm-wrapper": "file:coconut-wasm",
+    "@wasm-tool/wasm-pack-plugin": "^1.7.0",
+    "argon2": "^0.41.1",
+    "uuid": "^11.0.3"
+  }
+}

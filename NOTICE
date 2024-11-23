@@ -1,0 +1,9 @@
+This repository includes components from third-party libraries under the following licenses:
+
+- **Coconut (WASM Wrapper)**: Licensed under the **Apache License 2.0**. See <https://www.apache.org/licenses/LICENSE-2.0>.
+- **voprf-ts**: Licensed under the **BSD 3-Clause License**. See <https://opensource.org/licenses/BSD-3-Clause>.
+- **argon2**: Licensed under the **MIT License**. See <https://opensource.org/licenses/MIT>.
+- **uuid**: Licensed under the **MIT License**. See <https://opensource.org/licenses/MIT>.
+
+See the respective repositories for full license texts and attributions.
+
