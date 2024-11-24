@@ -147,13 +147,17 @@ function authenticator(localDB, globalDB, OPRFPrivateKey = null) {
 
         handleOPRFEvaluation: async (verificationKeys, proof, publicAttributes, evalRequest) => {
            
-            const value = await getFromGlobalStorage(verificationKeys);
-            if (value === undefined) {
-                return { error: "Undefined verification key" };
+            const ValidatedVerificationKeys = [];
+            for (const key of verificationKeys) {
+                const fetchedKey = await getFromGlobalStorage(key);
+                if (!fetchedKey) {
+                    return { error: `Verification key ${key} invalid or missing` };
+                }
+                ValidatedVerificationKeys.push(fetchedKey);
             }
 
             const result = await authenticatorInstance.coco_authenticator_step_3(
-                verificationKeys,
+                ValidatedVerificationKeys,
                 proof,
                 publicAttributes,
                 evalRequest
