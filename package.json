@@ -24,5 +24,8 @@
     "@wasm-tool/wasm-pack-plugin": "^1.7.0",
     "argon2": "^0.41.1",
     "uuid": "^11.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
