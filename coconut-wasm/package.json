@@ -1,0 +1,11 @@
+{
+  "name": "@nymproject/coconut-wasm-wrapper",
+  "version": "0.1.0",
+  "files": [
+    "coconut_wasm_wrapper_bg.wasm",
+    "coconut_wasm_wrapper.js",
+    "coconut_wasm_wrapper.d.ts"
+  ],
+  "main": "coconut_wasm_wrapper.js",
+  "types": "coconut_wasm_wrapper.d.ts"
+}
