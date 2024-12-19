@@ -75,7 +75,7 @@ A performance evaluation code has been provided **[performance.js](performance.j
 
 ### Try COCO in Your Project
 
-You can integrate COCO into your own projects by importing the library into your Node.js code. Please refer to the **pre-print** for technical details (it keeps on updating).
+You can integrate COCO into your own projects by importing the library into your Node.js code. Please refer to the **[pre-print](COCO-preprint.pdf)** for technical details (it keeps on updating).
 
 ---
 
