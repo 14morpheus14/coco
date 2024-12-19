@@ -69,9 +69,13 @@ COCO comes with a user manual and runtime test script to help you understand and
 
 2. This will execute the `yaps.js` script, which contains detailed info about COCO's usage, features and runtime tests.
 
+### COCO Performance Evaluation:
+
+A performance evaluation code has been provided **[performance.js](performance.js)** that runs instances of authenticators, verifier and client on a single system resource to test and create a performance graph. Note that it requires **[chartjs-node-canvas](https://www.npmjs.com/package/chartjs-node-canvas)** to create the performance graph. 
+
 ### Try COCO in Your Project
 
-You can integrate COCO into your own projects by importing the library into your Node.js code. Please refer to the Whitepaper (updating soon).
+You can integrate COCO into your own projects by importing the library into your Node.js code. Please refer to the **pre-print** for technical details (it keeps on updating).
 
 ---
 
